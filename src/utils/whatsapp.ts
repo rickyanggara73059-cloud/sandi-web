@@ -3,7 +3,7 @@
  * Enterprise-grade URL formatting with pre-filled context-aware inquiry messages
  */
 
-export const DEFAULT_WHATSAPP_NUMBER = '6281219451336'; // Format: country code without + or dashes
+export const DEFAULT_WHATSAPP_NUMBER = '6282132588882'; // Format: country code without + or dashes
 
 export interface WhatsAppOptions {
   serviceName?: string;
