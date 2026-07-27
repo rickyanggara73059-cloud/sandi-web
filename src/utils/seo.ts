@@ -25,7 +25,7 @@ export function generateOrganizationSchema() {
       'latitude': -6.2255,
       'longitude': 106.8083
     },
-    'telephone': '+6281288889988',
+    'telephone': '+6282132588882',
     'email': 'contact@nusaminerba.com',
     'priceRange': '$$$$',
     'openingHoursSpecification': [

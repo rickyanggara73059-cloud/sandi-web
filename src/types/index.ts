@@ -84,7 +84,7 @@ export interface CompanyInfo {
     googleMapsEmbedUrl: string;
   };
   phone: string;
-  whatsAppNumber: string; // E.164 format without + e.g. 6281234567890
+  whatsAppNumber: string; // E.164 format without + e.g. 6282132588882
   email: string;
   workingHours: string;
   socials: {

@@ -21,7 +21,7 @@ export const COMPANY_INFO: CompanyInfo & { contactPerson?: string } = {
     googleMapsEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2755208639257!2d106.80580637583688!3d-6.227361660991959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1501e74f2cd%3A0x868b4279512316e6!2sThe%20Energy%20Building!5e0!3m2!1sen!2sid!4v1700000000000!5m2!1sen!2sid'
   },
   phone: '+62 812-1945-1336',
-  whatsAppNumber: '6281219451336',
+  whatsAppNumber: '6282132588882',
   email: 'consulting@nusaconsultan.com',
   workingHours: 'Senin - Jumat: 08.00 - 18.00 WIB (Sabtu-Minggu Emergency On-Call)',
   socials: {
