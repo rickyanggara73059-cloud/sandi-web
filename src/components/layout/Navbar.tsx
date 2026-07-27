@@ -53,29 +53,29 @@ export const Navbar: React.FC<NavbarProps> = ({
 
         <div className="flex items-center justify-between">
 
-          {/* Brand Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
+         {/* Brand Logo */}
+{/* Brand Logo */}
+<Link to="/" className="flex items-center gap-4 group">
 
-            <div className="w-10 h-10 flex items-center justify-center shrink-0">
-              <img
-                src="/cms.png"
-                alt="CMS Consultant Mining Service"
-                className="w-full h-full object-contain group-hover:scale-105 transition-transform"
-              />
-            </div>
+  <div className="w-14 h-14 flex items-center justify-center shrink-0">
+    <img
+      src="/cms.png"
+      alt="CMS Consultant Mining Service"
+      className="w-full h-full object-contain group-hover:scale-105 transition-transform"
+    />
+  </div>
 
-            <div>
-              <h1 className="text-white font-bold text-sm">
-                Consultant Mining
-              </h1>
+  <div className="leading-none">
+    <div className="text-white font-bold text-lg tracking-wide">
+      CONSULTANT
+    </div>
 
-              <p className="text-[#D4AF37] text-[10px] tracking-wider">
-                Service
-              </p>
-            </div>
+    <div className="text-[#D4AF37] font-bold text-lg tracking-wide">
+      MINING SERVICE
+    </div>
+  </div>
 
-          </Link>
-
+</Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8 text-xs font-semibold uppercase tracking-widest">
