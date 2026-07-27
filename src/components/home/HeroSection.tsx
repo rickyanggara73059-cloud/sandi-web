@@ -60,13 +60,7 @@ export const HeroSection: React.FC = () => {
           <p className="text-base sm:text-xl text-gray-300 font-light max-w-xl mb-4 leading-relaxed">
             Penyedia Layanan Jasa Pengurusan Dokumen Legalitas Pertambangan Resmi Indonesia.
           </p>
-
-          {/* Contact Person Highlight Badge */}
-          <div className="inline-flex items-center gap-2 text-xs text-neutral-200 font-medium mb-8 bg-[#0A0A0A]/90 border border-[#D4AF37]/40 px-4 py-2.5 rounded-lg shadow-lg">
-            <MessageSquare className="w-4 h-4 text-[#D4AF37] fill-[#D4AF37]/20" />
-            <span>Hubungi Kami: <strong className="text-white font-bold">Dimas Tri Prasetyo, S.T.</strong> &mdash; <strong className="text-[#D4AF37] font-bold">0812 1945 1336</strong></span>
-          </div>
-
+          
           {/* Primary & Secondary Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
             <button

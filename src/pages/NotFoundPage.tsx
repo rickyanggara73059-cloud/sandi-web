@@ -7,7 +7,7 @@ import { openWhatsApp } from '../utils/whatsapp';
 export const NotFoundPage: React.FC = () => {
   return (
     <>
-      <SEO title="404 - Halaman Tidak Ditemukan | Nusa Minerba" />
+      <SEO title="404 - Halaman Tidak Ditemukan | Consultant Mining" />
 
       <div className="min-h-[70vh] bg-[#050505] text-white flex items-center justify-center px-4 py-16">
         <div className="max-w-md w-full text-center space-y-6 p-8 rounded-3xl bg-[#111111] border border-[#262626] shadow-2xl">
@@ -33,7 +33,7 @@ export const NotFoundPage: React.FC = () => {
             </Link>
 
             <button
-              onClick={() => openWhatsApp({ customMessage: 'Halo Tim Nusa Minerba, saya mencari perizinan di website tetapi masuk halaman 404.' })}
+              onClick={() => openWhatsApp({ customMessage: 'Halo Tim Consultant Mining, saya mencari perizinan di website tetapi masuk halaman 404.' })}
               className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-[#161616] hover:bg-neutral-800 text-neutral-200 border border-[#2A2A2A] font-medium text-xs flex items-center justify-center gap-2"
             >
               <MessageSquare className="w-4 h-4 text-[#D4AF37]" />

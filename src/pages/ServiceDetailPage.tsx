@@ -39,10 +39,10 @@ export const ServiceDetailPage: React.FC = () => {
 
   const serviceSchema = generateServiceSchema(service.title, service.shortDescription, service.slug);
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: 'Beranda', url: 'https://nusaminerba.com' },
-    { name: 'Layanan Perizinan', url: 'https://nusaminerba.com/services' },
-    { name: service.shortTitle, url: `https://nusaminerba.com/services/${service.slug}` }
-  ]);
+  { name: 'Beranda', url: 'https://sandi-web.vercel.app' },
+  { name: 'Layanan Perizinan', url: 'https://sandi-web.vercel.app/services' },
+  { name: service.shortTitle, url: `https://sandi-web.vercel.app/services/${service.slug}` }
+]);
   const faqSchema = generateFAQSchema(service.faqs);
 
   const schemas = [serviceSchema, breadcrumbSchema, faqSchema];
@@ -53,7 +53,7 @@ export const ServiceDetailPage: React.FC = () => {
         title={`${service.title} - Mining Licensing Consultant`}
         description={service.shortDescription}
         keywords={`${service.shortTitle}, Perizinan Pertambangan, ${service.authority}, Legalitas Tambang Indonesia, Konsultan ${service.shortTitle}`}
-        canonicalUrl={`https://nusaminerba.com/services/${service.slug}`}
+        canonicalUrl={`https://sandi-web.vercel.app/services/${service.slug}`}
         schemaJson={schemas}
       />
 

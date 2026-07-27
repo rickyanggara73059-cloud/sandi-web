@@ -10,8 +10,8 @@ export const AboutPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Tentang Nusa Minerba Consulting | Firma Konsultan Perizinan Pertambangan"
-        description="Profil Nusa Minerba Consulting, firma konsultan legalitas dan regulasi pertambangan terkemuka di Indonesia. Didukung eks-evaluator ESDM dan konsultan hukum pertambangan senior."
+        title="Tentang Consultant Mining Consulting | Firma Konsultan Perizinan Pertambangan"
+        description="Profil Consultant Mining Consulting, firma konsultan legalitas dan regulasi pertambangan terkemuka di Indonesia. Didukung eks-evaluator ESDM dan konsultan hukum pertambangan senior."
       />
 
       <div className="bg-[#050505] text-white pt-6 space-y-16 pb-16">
@@ -29,7 +29,7 @@ export const AboutPage: React.FC = () => {
                 Pionir Legalitas & <span className="text-[#D4AF37]">Regulasi Pertambangan</span> Indonesia
               </h1>
               <p className="text-sm sm:text-base text-neutral-300 leading-relaxed">
-                Nusa Minerba Consulting didirikan untuk memberikan kepastian hukum dan percepatan administrasi perizinan bagi pemilik konsesi pertambangan (IUP/IUPK), perusahaan kontraktor (IUJP), serta pelaku usaha ekspor mineral dan batubara di seluruh wilayah Indonesia.
+                Consultant Mining Consulting didirikan untuk memberikan kepastian hukum dan percepatan administrasi perizinan bagi pemilik konsesi pertambangan (IUP/IUPK), perusahaan kontraktor (IUJP), serta pelaku usaha ekspor mineral dan batubara di seluruh wilayah Indonesia.
               </p>
               <div className="pt-2 flex items-center gap-4">
                 <button

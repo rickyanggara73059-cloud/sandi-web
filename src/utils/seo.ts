@@ -6,11 +6,11 @@ export function generateOrganizationSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
-    'name': 'Nusa Minerba Consulting',
-    'alternateName': 'Nusa Minerba Mining Licensing & Regulatory Consultants',
-    'url': 'https://nusaminerba.com',
-    'logo': 'https://nusaminerba.com/logo.png',
-    'image': 'https://nusaminerba.com/og-banner.jpg',
+    'name': 'Consultant Mining Consulting',
+    'alternateName': 'Consultant Mining Mining Licensing & Regulatory Consultants',
+    'url': 'https://sandi-web.vercel.app',
+    'logo': 'https://sandi-web.vercel.app/logo.png',
+    'image': 'https://sandi-web.vercel.app/og-image.jpg',
     'description': 'Premier Fortune 500 level Mining Licensing, Legal Compliance & Regulatory Advisory Firm in Indonesia.',
     'address': {
       '@type': 'PostalAddress',
@@ -26,7 +26,7 @@ export function generateOrganizationSchema() {
       'longitude': 106.8083
     },
     'telephone': '+6282132588882',
-    'email': 'contact@nusaminerba.com',
+    'email': 'consultantmining@gmail.com',
     'priceRange': '$$$$',
     'openingHoursSpecification': [
       {
@@ -60,16 +60,16 @@ export function generateServiceSchema(serviceTitle: string, description: string,
     'name': `${serviceTitle} - Mining Consultant Service`,
     'serviceType': 'Mining Licensing & Compliance Consulting',
     'provider': {
-      '@type': 'ProfessionalService',
-      'name': 'Nusa Minerba Consulting',
-      'url': 'https://nusaminerba.com'
-    },
+  '@type': 'ProfessionalService',
+  'name': 'Consultant Mining',
+  'url': 'https://sandi-web.vercel.app'
+},
     'description': description,
     'areaServed': {
       '@type': 'Country',
       'name': 'Indonesia'
     },
-    'url': `https://nusaminerba.com/services/${slug}`
+    'url': `https://sandi-web.vercel.app/services/${slug}`
   };
 }
 

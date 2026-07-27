@@ -4,8 +4,8 @@ export const MAIN_FAQS: FAQItem[] = [
   {
     id: 'faq-1',
     category: 'General',
-    question: 'Mengapa memandatkan perizinan tambang ke Nusa Minerba Consulting?',
-    answer: 'Nusa Minerba memadukan keahlian teknis geologi/tambang dengan penguasaan hukum regulasi Ditjen Minerba, KLHK, dan BKPM. Kami memastikan dokumen diajukan secara presisi sejak awal tanpa risiko penolakan atau perbaikan berulang yang membuang waktu operasional tambang.'
+    question: 'Mengapa memandatkan perizinan tambang ke Consultant Mining Consulting?',
+    answer: 'Consultant Mining memadukan keahlian teknis geologi/tambang dengan penguasaan hukum regulasi Ditjen Minerba, KLHK, dan BKPM. Kami memastikan dokumen diajukan secara presisi sejak awal tanpa risiko penolakan atau perbaikan berulang yang membuang waktu operasional tambang.'
   },
   {
     id: 'faq-2',
@@ -28,8 +28,8 @@ export const MAIN_FAQS: FAQItem[] = [
   {
     id: 'faq-5',
     category: 'Licensing',
-    question: 'Apakah Nusa Minerba bisa melayani konsesi pertambangan di luar Jakarta?',
-    answer: 'Ya, Nusa Minerba melayani klien pertambangan di seluruh Indonesia (Sumatra, Kalimantan Timur/Tengah/Selatan, Sulawesi Tengah/Tenggara, Maluku Utara, hingga Papua). Tim lapangan kami siap melakukan peninjauan lokasi dan pendampingan BPKH setempat.'
+    question: 'Apakah Consultant Mining bisa melayani konsesi pertambangan di luar Jakarta?',
+    answer: 'Ya, Consultant Mining melayani klien pertambangan di seluruh Indonesia (Sumatra, Kalimantan Timur/Tengah/Selatan, Sulawesi Tengah/Tenggara, Maluku Utara, hingga Papua). Tim lapangan kami siap melakukan peninjauan lokasi dan pendampingan BPKH setempat.'
   },
   {
     id: 'faq-6',

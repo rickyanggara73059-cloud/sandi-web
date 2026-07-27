@@ -41,8 +41,8 @@ export const CTABanner: React.FC = () => {
               Siap Membantu <span className="font-bold text-[#D4AF37]">Legalitas Usaha Pertambangan Anda!</span>
             </h2>
             <p className="text-base sm:text-xl text-neutral-200 font-light">
-              Dimas Tri Prasetyo, S.T. &mdash; <strong className="text-[#D4AF37]">0812 1945 1336</strong>
-            </p>
+  Consultant Mining — Professional Mining Licensing Consultant
+</p>
           </div>
 
           <p className="relative z-10 text-xs sm:text-sm text-neutral-300 max-w-2xl mx-auto leading-relaxed font-light">

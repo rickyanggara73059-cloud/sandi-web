@@ -69,7 +69,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
               <button
                 onClick={() => {
                   onClose();
-                  openWhatsApp({ customMessage: `Halo Tim Nusa Minerba, saya ingin berkonsultasi perizinan khusus pertambangan yang belum ada di daftar list website.` });
+                  openWhatsApp({ customMessage: `Halo Tim Consultant Mining, saya ingin berkonsultasi perizinan khusus pertambangan yang belum ada di daftar list website.` });
                 }}
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#D4AF37] text-black text-xs font-semibold hover:bg-[#e5c158]"
               >
@@ -130,7 +130,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
             <ShieldCheck className="w-3.5 h-3.5 text-[#D4AF37]" />
             Sesuai Standar Ditjen Minerba & KLHK
           </span>
-          <span>Nusa Minerba Legal Advisory</span>
+          <span>Consultant Mining Service</span>
         </div>
       </div>
     </div>

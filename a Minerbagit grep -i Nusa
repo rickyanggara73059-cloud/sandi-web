@@ -1,0 +1,26 @@
+[35msrc/App.tsx[m[36m:[m * [1;31mNusa Minerba[m Consulting - Enterprise Mining Licensing Application Entry Point
+[35msrc/components/home/ProcessTimeline.tsx[m[36m:[m            onClick={() => openWhatsApp({ customMessage: 'Halo Tim [1;31mNusa Minerba[m, kami ingin memulai Tahap 01 Consultation untuk perizinan proyek pertambangan kami.' })}
+[35msrc/components/home/ServicesGrid.tsx[m[36m:[m                onClick={() => openWhatsApp({ customMessage: `Halo Tim [1;31mNusa Minerba[m, saya ingin bertanya tentang perizinan pertambangan.` })}
+[35msrc/components/layout/Footer.tsx[m[36m:[m            <span>© {new Date().getFullYear()} [1;31mNusa Minerba[m Consulting. All Rights Reserved.</span>
+[35msrc/data/companyData.ts[m[36m:[m    quote: '[1;31mNusa Minerba[m berhasil mempercepat approval RKAB 3 Tahunan kami di Ditjen Minerba dalam waktu 25 hari kerja tanpa kendala revisi berbelit. Profesionalisme setara Big 4 Advisory.',
+[35msrc/data/companyData.ts[m[36m:[m    quote: 'Pengurusan IPPKH/PPKH di Kawasan Hutan Lindung sangat rawan pembatalan. Tim [1;31mNusa Minerba[m melakukan audit spasial GIS presisi dan mendampingi verifikasi BPKH hingga SK KLHK terbit.',
+[35msrc/data/faqData.ts[m[36m:[m    question: 'Mengapa memandatkan perizinan tambang ke [1;31mNusa Minerba[m Consulting?',
+[35msrc/data/faqData.ts[m[36m:[m    answer: '[1;31mNusa Minerba[m memadukan keahlian teknis geologi/tambang dengan penguasaan hukum regulasi Ditjen Minerba, KLHK, dan BKPM. Kami memastikan dokumen diajukan secara presisi sejak awal tanpa risiko penolakan atau perbaikan berulang yang membuang waktu operasional tambang.'
+[35msrc/data/faqData.ts[m[36m:[m    question: 'Apakah [1;31mNusa Minerba[m bisa melayani konsesi pertambangan di luar Jakarta?',
+[35msrc/data/faqData.ts[m[36m:[m    answer: 'Ya, [1;31mNusa Minerba[m melayani klien pertambangan di seluruh Indonesia (Sumatra, Kalimantan Timur/Tengah/Selatan, Sulawesi Tengah/Tenggara, Maluku Utara, hingga Papua). Tim lapangan kami siap melakukan peninjauan lokasi dan pendampingan BPKH setempat.'
+[35msrc/pages/AboutPage.tsx[m[36m:[m        title="Tentang [1;31mNusa Minerba[m Consulting | Firma Konsultan Perizinan Pertambangan"
+[35msrc/pages/AboutPage.tsx[m[36m:[m        description="Profil [1;31mNusa Minerba[m Consulting, firma konsultan legalitas dan regulasi pertambangan terkemuka di Indonesia. Didukung eks-evaluator ESDM dan konsultan hukum pertambangan senior."
+[35msrc/pages/AboutPage.tsx[m[36m:[m                [1;31mNusa Minerba[m Consulting didirikan untuk memberikan kepastian hukum dan percepatan administrasi perizinan bagi pemilik konsesi pertambangan (IUP/IUPK), perusahaan kontraktor (IUJP), serta pelaku usaha ekspor mineral dan batubara di seluruh wilayah Indonesia.
+[35msrc/pages/ContactPage.tsx[m[36m:[m    const msg = `Halo Tim [1;31mNusa Minerba[m,\n\nFormulir Kontak Website:\n- Nama: ${formData.name}\n- Perusahaan: ${formData.company}\n- Email: ${formData.email}\n- No. HP: ${formData.phone}\n- Perizinan Dicari: ${formData.service}\n- Pesan: ${formData.message}`;
+[35msrc/pages/ContactPage.tsx[m[36m:[m        title="Hubungi Konsultan Pertambangan HQ SCBD | [1;31mNusa Minerba[m"
+[35msrc/pages/ContactPage.tsx[m[36m:[m        description="Hubungi tim konsultan perizinan pertambangan [1;31mNusa Minerba[m Consulting di SCBD Jakarta. Jadwalkan diskusi langsung via WhatsApp atau kunjungan kantor."
+[35msrc/pages/ContactPage.tsx[m[36m:[m                    Sistem mengarahkan Anda ke WhatsApp Advisor [1;31mNusa Minerba[m.
+[35msrc/pages/NotFoundPage.tsx[m[36m:[m      <SEO title="404 - Halaman Tidak Ditemukan | [1;31mNusa Minerba[m" />
+[35msrc/pages/NotFoundPage.tsx[m[36m:[m              onClick={() => openWhatsApp({ customMessage: 'Halo Tim [1;31mNusa Minerba[m, saya mencari perizinan di website tetapi masuk halaman 404.' })}
+[35msrc/pages/SitemapPage.tsx[m[36m:[m        title="Visual Sitemap & Direktori Perizinan | [1;31mNusa Minerba[m"
+[35msrc/pages/SitemapPage.tsx[m[36m:[m        description="Direktori lengkap halaman dan rute perizinan pertambangan [1;31mNusa Minerba[m Consulting."
+[35msrc/utils/seo.ts[m[36m:[m    'name': '[1;31mNusa Minerba[m Consulting',
+[35msrc/utils/seo.ts[m[36m:[m    'alternateName': '[1;31mNusa Minerba[m Mining Licensing & Regulatory Consultants',
+[35msrc/utils/seo.ts[m[36m:[m      'name': '[1;31mNusa Minerba[m Consulting',
+[35msrc/utils/whatsapp.ts[m[36m:[m    return `${greeting}\n\nSaya menghubungi melalui halaman **${sourcePage}** di website [1;31mNusa Minerba[m. Saya memerlukan informasi layanan konsultasi pertambangan & perizinan resmi.`;
+[35msrc/utils/whatsapp.ts[m[36m:[m  return `${greeting}\n\nSaya tertarik dengan Layanan Konsultasi Perizinan & Regulasi Pertambangan. Mohon dapat dijadwalkan sesi konsultasi gratis dengan Konsultan Senior [1;31mNusa Minerba[m. Terima kasih.`;

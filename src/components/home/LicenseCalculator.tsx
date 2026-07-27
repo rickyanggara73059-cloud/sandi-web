@@ -42,7 +42,7 @@ export const LicenseCalculator: React.FC = () => {
   const requiredLicenses = calculateRequiredLicenses();
 
   const handleSendReport = () => {
-    const msg = `Halo Tim Nusa Minerba, kami telah mencoba kalkulator perizinan tambang di website.\n\nDetail Perusahaan:\n- Komoditas: ${commodity}\n- Tahapan Ops: ${stage}\n- Di Kawasan Hutan: ${forestArea ? 'Ya (Butuh IPPKH)' : 'Tidak'}\n- Rencana Ekspor: ${isExport ? 'Ya' : 'Tidak'}\n\nDaftar Perizinan Direkomendasikan:\n${requiredLicenses.map(l => `• ${l}`).join('\n')}\n\nMohon jadwalkan sesi review kelayakan dengan konsultan senior. Terima kasih.`;
+    const msg = `Halo Tim Consultant Mining, kami telah mencoba kalkulator perizinan tambang di website.\n\nDetail Perusahaan:\n- Komoditas: ${commodity}\n- Tahapan Ops: ${stage}\n- Di Kawasan Hutan: ${forestArea ? 'Ya (Butuh IPPKH)' : 'Tidak'}\n- Rencana Ekspor: ${isExport ? 'Ya' : 'Tidak'}\n\nDaftar Perizinan Direkomendasikan:\n${requiredLicenses.map(l => `• ${l}`).join('\n')}\n\nMohon jadwalkan sesi review kelayakan dengan konsultan senior. Terima kasih.`;
     openWhatsApp({ customMessage: msg });
   };
 

@@ -125,7 +125,7 @@ export const ProcessTimeline: React.FC = () => {
         {/* CTA banner inside timeline */}
         <div className="text-center pt-6">
           <button
-            onClick={() => openWhatsApp({ customMessage: 'Halo Tim Nusa Minerba, kami ingin memulai Tahap 01 Consultation untuk perizinan proyek pertambangan kami.' })}
+            onClick={() => openWhatsApp({ customMessage: 'Halo Tim Consultant Mining, kami ingin memulai Tahap 01 Consultation untuk perizinan proyek pertambangan kami.' })}
             className="px-8 py-4 rounded bg-[#D4AF37] hover:bg-[#e5c158] text-black font-bold text-xs uppercase tracking-widest shadow-xl transition-all"
           >
             Mulai Tahap 01: Consultation Sekarang

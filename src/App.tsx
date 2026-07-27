@@ -1,5 +1,5 @@
 /**
- * Nusa Minerba Consulting - Enterprise Mining Licensing Application Entry Point
+ * Consultant Mining Consulting - Enterprise Mining Licensing Application Entry Point
  */
 
 import React, { useEffect } from 'react';

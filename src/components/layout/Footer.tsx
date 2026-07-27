@@ -124,7 +124,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenMap }) => {
         {/* Quick Links & Bottom Legal Disclaimer */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-[10px] uppercase tracking-wider text-neutral-500">
           <div className="flex items-center gap-6 flex-wrap">
-            <span>© {new Date().getFullYear()} Nusa Minerba Consulting. All Rights Reserved.</span>
+            <span>© {new Date().getFullYear()} Consultant Mining Consulting. All Rights Reserved.</span>
             <Link to="/sitemap" className="hover:text-[#D4AF37]">Sitemap</Link>
             <Link to="/contact" className="hover:text-[#D4AF37]">Hubungi Konsultan</Link>
           </div>

@@ -122,7 +122,7 @@ export const ServicesGrid: React.FC = () => {
               <p className="text-lg font-semibold text-white">Tidak ada layanan perizinan yang sesuai</p>
               <p className="text-xs text-neutral-500">Coba kata kunci lain atau berkonsultasi langsung via WhatsApp.</p>
               <button
-                onClick={() => openWhatsApp({ customMessage: `Halo Tim Nusa Minerba, saya ingin bertanya tentang perizinan pertambangan.` })}
+                onClick={() => openWhatsApp({ customMessage: `Halo Tim Consultant Mining, saya ingin bertanya tentang perizinan pertambangan.` })}
                 className="inline-flex items-center gap-2 px-6 py-2.5 rounded bg-[#D4AF37] text-black font-bold text-xs uppercase tracking-widest"
               >
                 Konsultasi Bebas WA

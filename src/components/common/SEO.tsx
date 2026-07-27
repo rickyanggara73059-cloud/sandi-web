@@ -22,10 +22,10 @@ export const SEO: React.FC<SEOProps> = ({
   schemaJson
 }) => {
   const fullTitle = title 
-    ? `${title} | Nusa Minerba Consulting`
+    ? `${title} | Consultant Mining`
     : `${COMPANY_INFO.name} - ${COMPANY_INFO.tagline}`;
 
-  const currentUrl = canonicalUrl || (typeof window !== 'undefined' ? window.location.href : 'https://nusaminerba.com');
+  const currentUrl = canonicalUrl || (typeof window !== 'undefined' ? window.location.href : 'https://Consultant Mining.com');
 
   return (
     <Helmet>
@@ -36,7 +36,7 @@ export const SEO: React.FC<SEOProps> = ({
       <meta name="keywords" content={keywords} />
       <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       <meta name="language" content="Indonesian, English" />
-      <meta name="author" content="Nusa Minerba Consulting" />
+      <meta name="author" content="Consultant Mining" />
 
       {/* Canonical URL */}
       <link rel="canonical" href={currentUrl} />
@@ -47,7 +47,7 @@ export const SEO: React.FC<SEOProps> = ({
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={ogImage} />
-      <meta property="og:site_name" content="Nusa Minerba Consulting" />
+      <meta property="og:site_name" content="Consultant Mining" />
       <meta property="og:locale" content="id_ID" />
 
       {/* Twitter Card */}

@@ -35,10 +35,10 @@ export function generateWhatsAppMessage(options: WhatsAppOptions = {}): string {
   }
 
   if (sourcePage) {
-    return `${greeting}\n\nSaya menghubungi melalui halaman **${sourcePage}** di website Nusa Minerba. Saya memerlukan informasi layanan konsultasi pertambangan & perizinan resmi.`;
+    return `${greeting}\n\nSaya menghubungi melalui halaman **${sourcePage}** di website Consultant Mining. Saya memerlukan informasi layanan konsultasi pertambangan & perizinan resmi.`;
   }
 
-  return `${greeting}\n\nSaya tertarik dengan Layanan Konsultasi Perizinan & Regulasi Pertambangan. Mohon dapat dijadwalkan sesi konsultasi gratis dengan Konsultan Senior Nusa Minerba. Terima kasih.`;
+  return `${greeting}\n\nSaya tertarik dengan Layanan Konsultasi Perizinan & Regulasi Pertambangan. Mohon dapat dijadwalkan sesi konsultasi gratis dengan Konsultan Senior Consultant Mining. Terima kasih.`;
 }
 
 export function getWhatsAppUrl(options: WhatsAppOptions = {}, phoneNumber: string = DEFAULT_WHATSAPP_NUMBER): string {

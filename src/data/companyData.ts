@@ -22,12 +22,12 @@ export const COMPANY_INFO: CompanyInfo & { contactPerson?: string } = {
   },
   phone: '+62 812-1945-1336',
   whatsAppNumber: '6282132588882',
-  email: 'consulting@nusaconsultan.com',
+  email: 'consultantmining@service.com',
   workingHours: 'Senin - Jumat: 08.00 - 18.00 WIB (Sabtu-Minggu Emergency On-Call)',
   socials: {
-    linkedin: 'https://linkedin.com/company/nusa-consultan',
-    instagram: 'https://instagram.com/nusaconsultan',
-    youtube: 'https://youtube.com/c/NusaConsultan'
+    linkedin: '',
+    instagram: '',
+    youtube: ''
   }
 };
 
@@ -65,27 +65,27 @@ export const COMPANY_STATS: StatItem[] = [
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: '1',
-    clientName: 'Bambang Soeprapto',
+    clientName: 'Erwin pahlefi',
     company: 'PT East Kalimantan Coal Operations',
     role: 'Direktur Utama',
     sector: 'Pertambangan Batubara',
-    quote: 'Nusa Minerba berhasil mempercepat approval RKAB 3 Tahunan kami di Ditjen Minerba dalam waktu 25 hari kerja tanpa kendala revisi berbelit. Profesionalisme setara Big 4 Advisory.',
+    quote: 'Consultant Mining berhasil mempercepat approval RKAB 3 Tahunan kami di Ditjen Minerba dalam waktu 25 hari kerja tanpa kendala revisi berbelit. Profesionalisme setara Big 4 Advisory.',
     rating: 5,
     licenseAcquired: 'Persetujuan RKAB 3 Tahunan ESDM'
   },
   {
     id: '2',
-    clientName: 'Hendrikus Van Berg',
+    clientName: 'Eko juno',
     company: 'Nikel Pacific Resources Ltd',
     role: 'Chief Operating Officer',
     sector: 'Tambang & Smelter Nikel Sulawesi',
-    quote: 'Pengurusan IPPKH/PPKH di Kawasan Hutan Lindung sangat rawan pembatalan. Tim Nusa Minerba melakukan audit spasial GIS presisi dan mendampingi verifikasi BPKH hingga SK KLHK terbit.',
+    quote: 'Pengurusan IPPKH/PPKH di Kawasan Hutan Lindung sangat rawan pembatalan. Tim Consultant Mining melakukan audit spasial GIS presisi dan mendampingi verifikasi BPKH hingga SK KLHK terbit.',
     rating: 5,
     licenseAcquired: 'PPKH / IPPKH KLHK'
   },
   {
     id: '3',
-    clientName: 'Ir. Irwan Kusuma, M.T.',
+    clientName: 'Galih sumitro.',
     company: 'PT Sumatra Mining Contractors',
     role: 'General Manager Mining Services',
     sector: 'Kontraktor Utama Tambang',

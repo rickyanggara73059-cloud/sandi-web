@@ -5,7 +5,7 @@ export const CookieConsent: React.FC = () => {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    const consent = localStorage.getItem('nusa_minerba_cookie_consent');
+    localStorage.getItem('consultant_mining_cookie_consent');
     if (!consent) {
       const timer = setTimeout(() => setShow(true), 2000);
       return () => clearTimeout(timer);
@@ -13,7 +13,7 @@ export const CookieConsent: React.FC = () => {
   }, []);
 
   const handleAccept = () => {
-    localStorage.setItem('nusa_minerba_cookie_consent', 'true');
+    localStorage.setItem('consultant_mining_cookie_consent', 'true');
     setShow(false);
   };
 

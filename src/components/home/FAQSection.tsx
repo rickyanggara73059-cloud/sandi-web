@@ -94,7 +94,7 @@ export const FAQSection: React.FC = () => {
         <div className="p-6 rounded-lg bg-[#0A0A0A] border border-white/10 text-center space-y-3">
           <p className="text-xs text-neutral-300 font-light">Punya pertanyaan spesifik mengenai regulasi konsesi Anda?</p>
           <button
-            onClick={() => openWhatsApp({ customMessage: 'Halo Tim Nusa Minerba, saya ingin bertanya seputar pertanyaan regulasi tambang khusus.' })}
+            onClick={() => openWhatsApp({ customMessage: 'Halo Tim Consultant Mining, saya ingin bertanya seputar pertanyaan regulasi tambang khusus.' })}
             className="inline-flex items-center gap-2 px-6 py-2.5 rounded bg-[#D4AF37] hover:bg-[#e5c158] text-black font-bold text-xs uppercase tracking-widest"
           >
             <MessageSquare className="w-4 h-4 fill-black text-black" />

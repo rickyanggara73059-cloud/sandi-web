@@ -80,7 +80,7 @@ export const WhyChooseUs: React.FC = () => {
             <p className="text-xs text-neutral-400 font-light">Tim konsultan senior kami siap melakukan pra-evaluasi dokumen pertambangan Anda tanpa biaya.</p>
           </div>
           <button
-            onClick={() => openWhatsApp({ customMessage: 'Halo Tim Nusa Consultan, kami ingin mengajukan pra-evaluasi kelayakan dokumen perizinan tambang kami.' })}
+            onClick={() => openWhatsApp({ customMessage: 'Halo Tim Consultant Mining, kami ingin mengajukan pra-evaluasi kelayakan dokumen perizinan tambang kami.' })}
             className="shrink-0 px-8 py-4 rounded bg-[#D4AF37] hover:bg-[#e5c158] text-black font-bold text-xs uppercase tracking-widest transition-all shadow-lg"
           >
             Minta Pra-Evaluasi Gratis

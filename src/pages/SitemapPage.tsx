@@ -9,8 +9,8 @@ export const SitemapPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Visual Sitemap & Direktori Perizinan | Nusa Minerba"
-        description="Direktori lengkap halaman dan rute perizinan pertambangan Nusa Minerba Consulting."
+        title="Visual Sitemap & Direktori Perizinan | Consultant Mining"
+        description="Direktori lengkap halaman dan rute perizinan pertambangan Consultant Mining Consulting."
       />
 
       <div className="bg-[#050505] text-white pt-6 space-y-12 pb-16">

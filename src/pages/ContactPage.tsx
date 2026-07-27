@@ -22,7 +22,7 @@ export const ContactPage: React.FC = () => {
     setSubmitted(true);
 
     // Format WhatsApp message from form data
-    const msg = `Halo Tim Nusa Minerba,\n\nFormulir Kontak Website:\n- Nama: ${formData.name}\n- Perusahaan: ${formData.company}\n- Email: ${formData.email}\n- No. HP: ${formData.phone}\n- Perizinan Dicari: ${formData.service}\n- Pesan: ${formData.message}`;
+    const msg = `Halo Tim Consultant Mining,\n\nFormulir Kontak Website:\n- Nama: ${formData.name}\n- Perusahaan: ${formData.company}\n- Email: ${formData.email}\n- No. HP: ${formData.phone}\n- Perizinan Dicari: ${formData.service}\n- Pesan: ${formData.message}`;
     
     setTimeout(() => {
       openWhatsApp({ customMessage: msg });
@@ -32,8 +32,8 @@ export const ContactPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Hubungi Konsultan Pertambangan HQ SCBD | Nusa Minerba"
-        description="Hubungi tim konsultan perizinan pertambangan Nusa Minerba Consulting di SCBD Jakarta. Jadwalkan diskusi langsung via WhatsApp atau kunjungan kantor."
+        title="Hubungi Konsultan Pertambangan HQ SCBD | Consultant Mining"
+        description="Hubungi tim konsultan perizinan pertambangan Consultant Mining Consulting di SCBD Jakarta. Jadwalkan diskusi langsung via WhatsApp atau kunjungan kantor."
       />
 
       <div className="bg-[#050505] text-white pt-6 space-y-16 pb-16">
@@ -115,7 +115,7 @@ export const ContactPage: React.FC = () => {
                   <CheckCircle2 className="w-12 h-12 text-[#D4AF37] mx-auto" />
                   <h4 className="text-lg font-bold text-white">Pesan Anda Berhasil Terkirim</h4>
                   <p className="text-xs text-neutral-400">
-                    Sistem mengarahkan Anda ke WhatsApp Advisor Nusa Minerba.
+                    Sistem mengarahkan Anda ke WhatsApp Advisor Consultant Mining.
                   </p>
                 </div>
               ) : (
