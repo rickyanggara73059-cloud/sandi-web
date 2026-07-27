@@ -5,12 +5,13 @@ export const CookieConsent: React.FC = () => {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    localStorage.getItem('consultant_mining_cookie_consent');
-    if (!consent) {
-      const timer = setTimeout(() => setShow(true), 2000);
-      return () => clearTimeout(timer);
-    }
-  }, []);
+  const consent = localStorage.getItem('consultant_mining_cookie_consent');
+
+  if (!consent) {
+    const timer = setTimeout(() => setShow(true), 2000);
+    return () => clearTimeout(timer);
+  }
+}, []);
 
   const handleAccept = () => {
     localStorage.setItem('consultant_mining_cookie_consent', 'true');
